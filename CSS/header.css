@@ -1,0 +1,6 @@
+.jumbotron {
+    background: url(../assets/jumbotronBG.jpeg) center;
+    background-size: cover;
+    height: 45vh;
+    color: black;
+}

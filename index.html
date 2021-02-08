@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"> 
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Garrett McKelvey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+ 
+    <!-- Header -->
+    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Oh, hello!</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id = "projects">
+          <h1 style="text-align: center;">Projects</h1>
+          <div class='container'>
+              <div class='row'>
+                  <div class='col-4'>
+                        <p>Lemon drops marshmallow cotton candy gummies soufflé pudding. Powder brownie muffin cotton candy wafer sesame snaps bear claw bonbon dessert. Donut chupa chups muffin. Sesame snaps apple pie cake.
+
+                            Dragée brownie tootsie roll macaroon. Cake soufflé gingerbread. Jelly gummi bears lemon drops danish cake. Chocolate cake gingerbread topping.
+                            
+                            Dragée jujubes muffin oat cake halvah. Sugar plum marshmallow sesame snaps donut muffin cake carrot cake jelly. Macaroon donut pudding cake chocolate cake cake sweet roll tart cake.
+                            
+                            Cheesecake liquorice chocolate cake candy icing bear claw cookie cotton candy oat cake. Caramels jelly cupcake chocolate chocolate cake cupcake. Chocolate cake cookie tootsie roll bonbon tiramisu lollipop oat cake pudding.
+                            
+                            Chocolate halvah caramels topping liquorice powder. Dragée toffee cupcake fruitcake icing caramels. Liquorice cake cheesecake liquorice sesame snaps chocolate chocolate bar.</p>
+                  </div>
+                  <div class='col-4'>
+                      <p>Let's build an almighty mountain. There it is. Even the worst thing we can do here is good. You can work and carry-on and put lots of little happy things in here.
+
+                        Trees live in your fan brush, but you have to scare them out. Everyone needs a friend. Friends are the most valuable things in the world. Let your imagination just wonder around when you're doing these things. There are no mistakes. You can fix anything that happens. Nice little clouds playing around in the sky. But they're very easily killed. Clouds are delicate.
+                        
+                        Let all these things just sort of happen. See. We take the corner of the brush and let it play back-and-forth. Let's make a nice big leafy tree. I'm gonna add just a tiny little amount of Prussian Blue. Put it in, leave it alone.</p>
+                </div>
+                <div class='col-4'>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolorem, voluptatem modi velit soluta neque commodi. Dolorem, atque tempora! Blanditiis eveniet illo porro quis accusantium consequatur delectus? Architecto quaerat rem eius animi deserunt libero ipsa numquam, maiores labore sint atque ad, odio beatae commodi earum illo cum adipisci? Deleniti nisi quae nulla molestiae, sapiente voluptatum ea temporibus dicta eligendi, alias sit nobis. Vitae magnam labore nobis similique aliquam minima esse quia quas! A consequuntur quo provident tenetur laudantium. Voluptas explicabo delectus velit, repellendus aliquid recusandae voluptates quos fugiat, odio reiciendis, assumenda inventore nostrum culpa officia perferendis! Cum illo ipsum quia?</p>
+                </div>
+              </div>
+          </div>
+
+      </section>
+
+      <!-- Contact -->
+
+      <section id='contact'>
+        <div class='container'>
+            <br>
+            <br>
+            <h2 class='text-center text-uppercase'>Contact Me</h2>
+            <!-- asset from FormSpree that auto sends input form to your email (can use in our portfolio for gold badge) -->
+            <div class="row">
+                <div class="col-12">
+                    <form action="https://formspree.io/f/xknpeeob" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+      </section>
+
+
+
+    <!-- Bootstrap JS links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
