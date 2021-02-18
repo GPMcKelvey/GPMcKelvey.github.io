@@ -2,3 +2,7 @@
     font-family: var(--font-one);
     font-size: 24pt;
 }
+
+.navbar-nav li {
+    font-family: var(--font-two);
+}

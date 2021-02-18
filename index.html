@@ -10,15 +10,19 @@
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"> 
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet"> 
+<!-- font awesome socials link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS link -->
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     
 
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Garrett McKelvey</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,60 +30,83 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#aboutMe">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
             </ul>
         </div>
     </nav>
  
     <!-- Header -->
     
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
         <div class="container">
-          <h1 class="display-4">Oh, hello!</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">Welcome!</h1>
+          <p class="lead">Thank you for stopping by to take a look at my work.</p>
         </div>
       </div>
 
+
+    <!-- About Me -->
+      <section id="aboutMe">
+            <h1 style="text-align: center;">About Me</h1>
+            <br>
+            <div class='container'>
+                <div class='row'>
+                    <div class="col-4">
+                        <p>Hi! I'm Garrett McKelvey. I'm a web developer in training with a diverse background & skill set, eventually looking for a front-end position. Currently I am working through the Eleven Fifty Web Development bootcamp. I also handle social media & events for a craft beer bar, The Sinkhole, in Bloomington. I do a little freelance photography and graphic design under the name <a href="https://www.osovista.com" target = "_blank" id='oso'>Oso Vista</a>. The photo in the header above is one I took at Goeth-Link Observatory in Moorseville, IN. Daffodils might just be my favorite flower.</p>
+                    </div>
+                    <div class="col-4">
+                        <p>I'm always looking for a creative outlet, from photography to woodworking, I enjoy design and building things. That's why coding is for me. I enjoy watching a project come to life and web development gives me the opportunity to design and build. I'm always looking for ways to improve things and to make them more intuitive. My passion is creating and it's so rewarding to be on a career path that will allow me to bring my passion to the table.</p>
+                    </div>
+                    <div class="col-4">
+                        <p>I'm married to my wonderful wife, Callie, and we currently live in Bloomington, IN with our two dogs, Louie & Petunia. Louie is part Shepherd In my free time I love to watch movies and listen to podcast. Educational and tech podcast are my favorite. If you haven't listened to <a href="https://gimletmedia.com/shows/reply-all">Reply All</a> or <a href="https://www.wnycstudios.org/podcasts/radiolab">Radiolab</a> then you should check them out soon!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="button">
+                <button type="button" class="btn btn-outline-primary" id = "btn">Resume<a href = "./assets/resume_GMcKelvey.docx" download = "resume_GMcKelvey"></a></button>
+            </div>
+      </section>
+
       <!-- Projects -->
       <section id = "projects">
-          <h1 style="text-align: center;">Projects</h1>
-          <div class='container'>
-              <div class='row'>
-                  <div class='col-4'>
-                        <p>Lemon drops marshmallow cotton candy gummies soufflé pudding. Powder brownie muffin cotton candy wafer sesame snaps bear claw bonbon dessert. Donut chupa chups muffin. Sesame snaps apple pie cake.
-
-                            Dragée brownie tootsie roll macaroon. Cake soufflé gingerbread. Jelly gummi bears lemon drops danish cake. Chocolate cake gingerbread topping.
-                            
-                            Dragée jujubes muffin oat cake halvah. Sugar plum marshmallow sesame snaps donut muffin cake carrot cake jelly. Macaroon donut pudding cake chocolate cake cake sweet roll tart cake.
-                            
-                            Cheesecake liquorice chocolate cake candy icing bear claw cookie cotton candy oat cake. Caramels jelly cupcake chocolate chocolate cake cupcake. Chocolate cake cookie tootsie roll bonbon tiramisu lollipop oat cake pudding.
-                            
-                            Chocolate halvah caramels topping liquorice powder. Dragée toffee cupcake fruitcake icing caramels. Liquorice cake cheesecake liquorice sesame snaps chocolate chocolate bar.</p>
-                  </div>
-                  <div class='col-4'>
-                      <p>Let's build an almighty mountain. There it is. Even the worst thing we can do here is good. You can work and carry-on and put lots of little happy things in here.
-
-                        Trees live in your fan brush, but you have to scare them out. Everyone needs a friend. Friends are the most valuable things in the world. Let your imagination just wonder around when you're doing these things. There are no mistakes. You can fix anything that happens. Nice little clouds playing around in the sky. But they're very easily killed. Clouds are delicate.
-                        
-                        Let all these things just sort of happen. See. We take the corner of the brush and let it play back-and-forth. Let's make a nice big leafy tree. I'm gonna add just a tiny little amount of Prussian Blue. Put it in, leave it alone.</p>
-                </div>
-                <div class='col-4'>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolorem, voluptatem modi velit soluta neque commodi. Dolorem, atque tempora! Blanditiis eveniet illo porro quis accusantium consequatur delectus? Architecto quaerat rem eius animi deserunt libero ipsa numquam, maiores labore sint atque ad, odio beatae commodi earum illo cum adipisci? Deleniti nisi quae nulla molestiae, sapiente voluptatum ea temporibus dicta eligendi, alias sit nobis. Vitae magnam labore nobis similique aliquam minima esse quia quas! A consequuntur quo provident tenetur laudantium. Voluptas explicabo delectus velit, repellendus aliquid recusandae voluptates quos fugiat, odio reiciendis, assumenda inventore nostrum culpa officia perferendis! Cum illo ipsum quia?</p>
-                </div>
+          <h1 id = "projH" style="text-align: center;">Projects</h1>
+          <div class='container' id='proj'>
+                <div class='row'>
+                    <div class='col-4'>
+                        <a href="https://codepen.io/GPMcKelvey/pen/abmgxNG" target="_blank">
+                            <img class = "img-thumbnail" id = "CSScorona" src="./assets/cssCorona.png" alt="">
+                            <p class="label">CSS Creature</p>
+                        </a>                    
+                    </div>
+                    <div class='col-4' id = "midProject">
+                        <a href="https://gpmckelvey.github.io/staticLayoutProject/" target="_blank">
+                            <img src="./assets/static.png" alt="" class="img-thumbnail">
+                            <p class="label">Static Layout</p>
+                        </a>
+                        <br>
+                        <br>
+                        <a href="https://gpm-thegifmachine.web.app/" target="_blank">
+                            <img src="./assets/giphyAPI.png" alt="" class="img-thumbnail">
+                            <p class="label">Giphy API</p>
+                        </a>
+                    </div>
+                    <div class='col-4'>
+                        <a href="https://gpmckelvey.github.io/coronaAPI/" target="_blank">
+                            <img src="./assets/coronaAPI.png" alt="" class="img-thumbnail">
+                            <p class="label">Corona API</p>
+                        </a>
+                    </div>
               </div>
           </div>
 
@@ -131,6 +158,14 @@
 
       </section>
 
+      <footer>
+        <section class="foot">
+                <a href="https://www.linkedin.com/in/garrett-mckelvey-87015417a/" target = "_blank" class = "named"><i class = "fa fa-linkedin"></i> Garrett McKelvey</a>
+                <a href="https://github.com/GPMcKelvey" target = "_blank" class = "named"><i class = "fa fa-github"></i> GPMcKevley</a>
+                <a href="https://www.facebook.com/OsoVistaPhotography/" target = "_blank" class="named" id="fb"><i class = "fa fa-facebook"></i> Oso Vista Photography</a>
+                <a href="https://www.instagram.com/osovista/?hl=en" target = "_blank" class="named" id="ig"><i class = "fa fa-instagram"></i> OsoVista</a>           
+        </section>
+      </footer>
 
 
     <!-- Bootstrap JS links -->

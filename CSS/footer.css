@@ -1,0 +1,27 @@
+.foot {
+    padding: .25em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.named {
+  font-family: var(--font-two);
+}
+.foot a {
+    color:white;
+    text-decoration: none;
+}
+
+.foot fa {
+    margin-right: 5em;
+    padding: 5em;
+  }
+
+.foot a:hover {
+    color: var(--orange);
+    opacity: 0.7;
+  } 
+  

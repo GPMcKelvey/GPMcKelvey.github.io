@@ -1,6 +1,32 @@
 .jumbotron {
-    background: url(../assets/jumbotronBG.jpeg) center;
+    color: var(--orange);
+    height: 100vh;
+
+    background: url(../assets/goethDaff.jpg) center;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
-    color: black;
 }
+
+
+
+.display-4 {
+    margin-top: 1em;
+    font-family: var(--font-two);
+    font-style: Semi-bold;
+    font-weight: 600;
+    font-size: 6em;
+}
+
+ 
+.lead {
+    font-family: var(--font-two);
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+
+

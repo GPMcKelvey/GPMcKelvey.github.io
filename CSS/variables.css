@@ -1,8 +1,8 @@
 /* root is grabbing the "root" element of out HTML document (which in this case is our tag <html> */
 :root {
-    --brown: #6d6656;
-    --grey: #53565A;
-    --black: #272727;
+    --yellow: #ffdf2f;
+    --orange: #e56722;
 
     --font-one: "Amatic SC", cursive;
+    --font-two: "Raleway", sans-serif;
 }

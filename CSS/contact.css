@@ -1,9 +1,9 @@
 #contact {
-    background: var(--black);
-    padding-bottom: 3em;
-    color: white;
+    background: white;
+    padding-bottom: 2em;
+    color: var(--yellow);
 }
  .text-center button {
-     background-color: white;
-     color: black;
+     background-color:  var(--yellow);
+     color: white;
  }

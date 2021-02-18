@@ -1,0 +1,38 @@
+#aboutMe {
+    padding: 5em;
+    font-family: var(--font-two);
+    font-weight: 400;
+}
+
+#aboutMe a {
+    font-family: var(--font-two);
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+#btn {
+    color: var(--orange);
+    border-color: var(--orange);
+}
+
+#btn:hover {
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#aboutMe p {
+    text-align: center;
+}
