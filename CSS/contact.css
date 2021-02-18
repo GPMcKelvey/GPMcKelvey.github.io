@@ -3,7 +3,11 @@
     padding-bottom: 2em;
     color: var(--yellow);
 }
- .text-center button {
+#contactBtn {
      background-color:  var(--yellow);
      color: white;
+ }
+
+ #contactBtn:hover {
+     color: var(--orange);
  }

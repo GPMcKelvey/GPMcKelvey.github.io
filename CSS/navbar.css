@@ -1,8 +1,25 @@
+#nav {
+    background-color: white;
+}
+
 .navbar-brand{
     font-family: var(--font-one);
     font-size: 24pt;
+    color: var(--orange);
+}
+
+.navbar-brand:hover {
+    color: var(--yellow);
 }
 
 .navbar-nav li {
     font-family: var(--font-two);
+
+}
+
+.nav-link {
+    color: var(--orange);
+}
+.nav-link:hover {
+    color: var(--yellow);
 }
