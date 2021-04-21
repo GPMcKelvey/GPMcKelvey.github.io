@@ -1,14 +1,16 @@
 #aboutMe {
-    color: white;
+    color: var(--orange);
     padding: 5em;
     font-family: var(--font-two);
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 20px;
+    max-height: 100%;
 }
 
 .row a {
     font-family: var(--font-two);
     font-weight: 400;
-    color: white;
+    color: var(--orange);
     font-style: italic;
 }
 
@@ -24,7 +26,8 @@
 }
 
 #btn:hover {
-    background-color: white;
+    background-color: var(--orange);
+    color: var(--yellow);
 }
 
 .row {

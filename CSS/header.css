@@ -13,11 +13,13 @@
 
 
 .display-4 {
+    background-color: #ffe02fa2;
     margin-top: 1em;
     font-family: var(--font-two);
     font-style: Semi-bold;
     font-weight: 600;
     font-size: 6em;
+    max-width: 43%;
 }
 
  

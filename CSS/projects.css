@@ -1,5 +1,5 @@
 #projH {
-    color: white;
+    color: var(--orange);
     font-family: var(--font-two);
     font-size: 32px;
     font-weight: 600;
@@ -32,7 +32,7 @@
 #projects p {
     text-align: center;
     font-family: var(--font-two);
-    color: white;
+    color: var(--orange);
     
 }
 

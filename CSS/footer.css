@@ -11,7 +11,7 @@
   font-family: var(--font-two);
 }
 .foot a {
-    color:white;
+    color:var(--orange);
     text-decoration: none;
 }
 
