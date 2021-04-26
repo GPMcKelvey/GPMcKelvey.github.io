@@ -23,3 +23,8 @@
 .nav-link:hover {
     color: var(--yellow);
 }
+
+.navbar-toggler-icon {
+    color: var(--yellow);
+    background-color: var(--orange);
+}
