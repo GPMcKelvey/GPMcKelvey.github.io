@@ -1,6 +1,7 @@
 .jumbotron {
     color: var(--orange);
     height: 100vh;
+    width: 100vw;
 
     background: url(../assets/goethDaff.jpg) center;
   
@@ -13,13 +14,13 @@
 
 
 .display-4 {
-    background-color: #ffe02fa2;
+    /* background-color: #ffe02fa2; */
     margin-top: 1em;
     font-family: var(--font-two);
     font-style: Semi-bold;
     font-weight: 600;
-    font-size: 6em;
-    max-width: 43%;
+    font-size: 6vw;
+    max-width: 43vw;
     padding-left: 1%;
 }
 

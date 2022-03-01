@@ -1,6 +1,6 @@
 #aboutMe {
     color: var(--orange);
-    padding: 5em;
+    /* padding: 5em; */
     font-family: var(--font-two);
     font-weight: 600;
     font-size: 20px;
